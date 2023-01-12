@@ -2,7 +2,8 @@ New changes added here!
 
 ## Link to UCSD Website
 
-> [UCSD Website](https://ucsd.edu/)
+[This is an external link to genome.gov](https://www.genome.gov/)
+
 
 *Practicing Italics*
 
