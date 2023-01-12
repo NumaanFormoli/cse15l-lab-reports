@@ -2,4 +2,4 @@ Hello World!
 
 Link to Second Webpage:
 
-> [Link](/new.html))
+> [Link](cse15l-lab-reports/new.html))
