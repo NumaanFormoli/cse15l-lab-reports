@@ -8,16 +8,22 @@
 
 ![Image](vscode.png)
 
-
 # Part 2 Remotely Connecting
 ---
 1. First step is to install Git for your specific operating system (in my case macOS) by going to https://git-scm.com/download/mac.
 2. Next, open a terminal on VScode (Terminal -> New Terminal menu option).
-3. Then type `ssh cs15lwi23zz@ieng6.ucsd.edu` (The zz at the end will be replaced with your specfic letters
-4. After clicking enter you will receive something that looks like below. Simply type `yes` and click enter. Enter your password for your `cs15lwi23zz` account.
-`IMAGE HERE`
+3. Then type `ssh cs15lwi23aif@ieng6.ucsd.edu` (The aif at the end will be replaced with your specfic letters)
+4. After clicking enter you will receive something that looks like below. Simply type `yes` and click enter. Enter your password for your `cs15lwi23aif` account.
+```
+⤇ ssh cs15lwi23aif@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
 5. Your terminal will look something like below after connecting to the remote server. Your computer is now the client and the computer basement serves as the server.
-`IMAGE HERE`
+
+![Image](remoteConnect.png)
+
 6. ASK QUESTIONS! If you ever encounter a problem or issue, ensure that you completed the previous steps accurately and your password for your account is correct
 
 
@@ -31,5 +37,5 @@ ls -lat (lists all files in long list format sorted by modification time)
 ls -ah (lists all human readable files)
 pwd (prints working directory)
 ```
-`Image here`
+![Image](commands.png)
 2. After trying some of these commands, I suggest you look up some more online and try to implement it on this server. The more you practice, the better you'll get!
