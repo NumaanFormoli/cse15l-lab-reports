@@ -1,6 +1,6 @@
 # Part 1 Setting Up VSCode
 ---
-1.  Go to the Visual Studio Code website: https://code.visualstudio.com/ and follow the instructions to download. Ensure that the instructions match your specific operating system (macOS, windows, etc).
+1.  Go to the Visual Studio Code website: [(https://code.visualstudio.com/)]((https://code.visualstudio.com/)) and follow the instructions to download. Ensure that the instructions match your specific operating system (macOS, windows, etc).
 2.  For my system (macOS), after downloading, locate the downloaded app or archive on your computer.
 3.  If archive, extract the archive by double-clicking the file.
 4.  Drag the Visual Studio Code download into the Applications folder. 
@@ -10,7 +10,7 @@
 
 # Part 2 Remotely Connecting
 ---
-1. First step is to install Git for your specific operating system (in my case macOS) by going to https://git-scm.com/download/mac.
+1. First step is to install Git for your specific operating system (in my case macOS) by going to [(https://git-scm.com/download/mac)]((https://git-scm.com/download/mac)).
 2. Next, open a terminal on VScode (Terminal -> New Terminal menu option).
 3. Then type `ssh cs15lwi23aif@ieng6.ucsd.edu` (The aif at the end will be replaced with your specific letters).
 4. After clicking enter you will receive something that looks like below. Simply type `yes` and click enter. Enter your password for your `cs15lwi23aif` account.
