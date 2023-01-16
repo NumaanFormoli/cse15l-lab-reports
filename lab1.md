@@ -6,7 +6,7 @@
 4.  Drag the Visual Studio Code download into the Applications folder. 
 5.  Double click VS Code to open it and your screen should resemble the image below.
 
-IMAGE HERE
+![Image](vscode.png)
 
 
 # Part 2 Remotely Connecting
