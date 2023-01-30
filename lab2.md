@@ -50,7 +50,7 @@ The bug with the code was that it was simultaneously changing the code while ref
 # Part 3
 ---
 
-I learned how to start a web server from my computer and update it using the url. I also learned how to use JUnit as a method of testing my Java code.
+I learned how to start a web server from my computer and update it using the url. I also learned how to use JUnit as a method of testing my Java code. JUnit will be useful when coding in Java on my PAs.
 
 
 
