@@ -47,6 +47,11 @@ After:
 Fix:
 The bug with the code was that it was simultaneously changing the code while referring back to earlier indexes to complete the replacement of the later indexes. To fix this, I cloned the array into a separate copyArray and iterated through that, and copied the values into the array.
 
+# Part 3
+---
+
+I learned how to start a web server from my computer and update it using the url. I also learned how to use JUnit as a method of testing my Java code.
+
 
 
 
