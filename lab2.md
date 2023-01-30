@@ -36,7 +36,7 @@ assertArrayEquals(new int[]{ 3 }, input1);
 ```
 Symptoms:
 
-![Image](Symptoms.png)
+![Image](Symptoms2.png)
 
 Bug Before:
 ![Image](Screen Shot 2023-01-29 at 11.48.10 PM.png)
