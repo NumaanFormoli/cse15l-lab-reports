@@ -1,7 +1,12 @@
 # Part 1: String Server
 ---
 Code for StringServer.java:
-![Image]("Screen Shot 2023-01-29 at 10.46.23 PM.png")
+![Image](Screen Shot 2023-01-29 at 10.46.23 PM.png)
+![Image](Screen Shot 2023-01-29 at 10.46.52 PM.png)
+![Image](Screen Shot 2023-01-29 at 10.47.06 PM.png)
+![Image](Screen Shot 2023-01-29 at 10.47.31 PM.png)
+![Image](Screen Shot 2023-01-29 at 10.47.48 PM.png)
+
 
 1. When you type `java StringServer [Port]`, You run the main method in the StringServer class. This class then uses the Server class method start(port, new Handler) to start the web server. The handleRequest method in Handler class is also called to take the url and execute certain code based on the url and display it on the web browser for the user.
 
@@ -9,5 +14,6 @@ Code for StringServer.java:
 
 3. Some fields that changed is the `URI url`, `String[] parameters`, and `str` changed after adding my code. Url took my added `add-message?s=hello`, parameters took the `s=hello` and str adds `hello` and `\n` to the end.
 
-![Image]("Screen Shot 2023-01-29 at 10.46.23 PM.png")
+
+
 
