@@ -24,15 +24,18 @@ Code for StringServer.java:
 ---
 Failure inducing:
 ```
-int[] input2 = {1, 2, 3, 4};
-assertArrayEquals(new int[]{4,3,2,1}, ArrayExamples.reversed(input2));
+int[] input2 = { 1, 2, 3, 4, 5};
+ArrayExamples.reverseInPlace(input2);
+assertArrayEquals(new int[] {5,4,3,2,1}, input2);
 ```
 Non-failure code:
-```
-int[] input1 = { };
-assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+```   
+int[] input1 = { 3 };
+ArrayExamples.reverseInPlace(input1);
+assertArrayEquals(new int[]{ 3 }, input1);
 ```
 Symptoms:
+
 ![Image](Symptoms.png)
 
 Bug Before:
@@ -40,6 +43,9 @@ Bug Before:
 
 After:
 ![Image](Screen Shot 2023-01-29 at 11.48.26 PM.png)
+
+Fix:
+The bug with the code was that it was simultaneously changing the code while referring back to earlier indexes to complete the replacement of the later indexes. To fix this, I cloned the array into a separate copyArray and iterated through that, and copied the values into the array.
 
 
 
