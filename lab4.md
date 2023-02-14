@@ -38,7 +38,7 @@ non-fiction//OUP/Fletcher/ch1.txt
 non-fiction//OUP/Castro/chM.txt
 ```
 - In this example, I use the regex to search text files in the non-fiction directory that has a pattern that starts with t and ends with pw. I use the -r to search through the directory recursively and -l to only list the file name. This is useful if you want to search a directory for a certain pattern, say an email address, but don't want to grep each txt file. The * means that the preceding character will be matched zero or more times.
-- ![Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+- [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
  
 
 2. Invert match using grep -v
@@ -68,8 +68,8 @@ numaanformoli@Numaans-MacBook-Air travel_guides % grep -v "a" berlitz1/HistoryIs
         positions in Beirut. They forced the PLO out, but without much support
         people.
 ```
-- In this example I use the command option -v which does an invert match meaning it returns the lines that does not contain that pattern. This would be useful in searching for a specific file that does not have a particular pattern.
-- ![Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+- In this example, I use the command option -v which does an invert match meaning it returns the lines that do not contain that pattern. This would be useful in searching for a specific file that does not have a particular pattern.
+- [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 3. Counting the number of matches using grep -c
 ```
@@ -81,7 +81,7 @@ numaanformoli@Numaans-MacBook-Air travel_guides % grep -c -r "No" berlitz2/Athen
 berlitz2/Athens-WhatToDo.txt:1
 ```
 - The -c command option counts the number of lines with matches. This can be useful if you want to know the frequency of some word within a text file.
-- ![Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+- [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 
 4. Show the position of match in the line
@@ -128,5 +128,4 @@ non-fiction/OUP/Castro/chM.txt
 non-fiction/OUP/Castro/chN.txt
 ```
 - This option -i looks for the pattern without case sensitivity. It is useful when looking for a word that can appear in a text in uppercase or lowercase
-- ![Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://linuxhandbook.com/grep-command-examples/)
-
+- [Source](https://linuxhandbook.com/grep-command-examples/)
