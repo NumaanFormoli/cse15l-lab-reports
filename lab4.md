@@ -127,5 +127,5 @@ non-fiction/OUP/Castro/chR.txt
 non-fiction/OUP/Castro/chM.txt
 non-fiction/OUP/Castro/chN.txt
 ```
-- This option -i looks for the pattern without case sensitivity. It is useful when looking for a word that can appear in a text in uppercase or lowercase
+- This option -i looks for the pattern without case sensitivity. It is useful when looking for a word that can appear in a text in uppercase or lowercase.
 - [Source](https://linuxhandbook.com/grep-command-examples/)
