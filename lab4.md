@@ -2,7 +2,6 @@
 ---
 
 1. Match regular expression in files using -r and -l
-
 ```
 numaanformoli@Numaans-MacBook-Air written_2 % grep -r -l "t.*pw" non-fiction/
 
@@ -40,7 +39,7 @@ non-fiction//OUP/Castro/chM.txt
 - In this example, I use the regex to search text files in the non-fiction directory that has a pattern that starts with t and ends with pw. I use the -r to search through the directory recursively and -l to only list the file name. This is useful if you want to search a directory for a certain pattern, say an email address, but don't want to grep each txt file. The * means that the preceding character will be matched zero or more times.
 - [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
  
-
+ 
 2. Invert match using grep -v
 ```
 numaanformoli@Numaans-MacBook-Air travel_guides % grep -v "a" berlitz1/HandRHawaii.txt
@@ -70,6 +69,7 @@ numaanformoli@Numaans-MacBook-Air travel_guides % grep -v "a" berlitz1/HistoryIs
 ```
 - In this example, I use the command option -v which does an invert match meaning it returns the lines that do not contain that pattern. This would be useful in searching for a specific file that does not have a particular pattern.
 - [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+
 
 3. Counting the number of matches using grep -c
 ```
