@@ -2,6 +2,8 @@
 ---
 
 1. Match regular expression in files using -r and -l
+
+
 ```
 numaanformoli@Numaans-MacBook-Air written_2 % grep -r -l "t.*pw" non-fiction/
 
@@ -41,6 +43,7 @@ non-fiction//OUP/Castro/chM.txt
  
  
 2. Invert match using grep -v
+
 ```
 numaanformoli@Numaans-MacBook-Air travel_guides % grep -v "a" berlitz1/HandRHawaii.txt
         410 rooms.
@@ -72,6 +75,7 @@ numaanformoli@Numaans-MacBook-Air travel_guides % grep -v "a" berlitz1/HistoryIs
 
 
 3. Counting the number of matches using grep -c
+
 ```
 numaanformoli@Numaans-MacBook-Air travel_guides % grep -c "of" berlitz2/Algarve-History.txt
 30
@@ -85,6 +89,7 @@ berlitz2/Athens-WhatToDo.txt:1
 
 
 4. Case insensitive search using grep -i
+
 ```
 numaanformoli@Numaans-MacBook-Air Fletcher % grep -i -l "hi" *.txt  
 ch1.txt
@@ -94,6 +99,7 @@ ch5.txt
 ch6.txt
 ch9.txt
 ```
+
 ```
 numaanformoli@Numaans-MacBook-Air written_2 % grep -i -l -r "why" non-fiction 
 non-fiction/OUP/Berk/ch2.txt
