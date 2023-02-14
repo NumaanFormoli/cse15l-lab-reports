@@ -37,7 +37,7 @@ non-fiction//OUP/Fletcher/ch2.txt
 non-fiction//OUP/Fletcher/ch1.txt
 non-fiction//OUP/Castro/chM.txt
 ```
-- In this example, I use the regex to search txt files in the non-fiction directory that has a pattern that starts with t and end with pw. I use the -r to search through the directory recursively and -l to only list the file name. This is useful if you want to search a directory for a certain pattern, say an email address, but dont want to grep each individual txt file. The * means that the preceding character will be matched zero or more times.
+- In this example, I use the regex to search text files in the non-fiction directory that has a pattern that starts with t and ends with pw. I use the -r to search through the directory recursively and -l to only list the file name. This is useful if you want to search a directory for a certain pattern, say an email address, but don't want to grep each txt file. The * means that the preceding character will be matched zero or more times.
 - ![Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
  
 
