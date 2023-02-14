@@ -84,7 +84,7 @@ berlitz2/Athens-WhatToDo.txt:1
 - [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 
-4. Show the position of match in the line
+4. Case insensitive search using grep -i
 ```
 numaanformoli@Numaans-MacBook-Air Fletcher % grep -i -l "hi" *.txt  
 ch1.txt
