@@ -35,11 +35,11 @@
 
 6. Commit and push the resulting change to your Github account
   ![Image](gitCommit.png)
-  - Keys Pressed:
-    - `git,<space>,add,<space>,L,<tab>,.j,<tab>,<enter>`
-    - `git,<space>,commit,<space>,-m,<space>,"e",<enter>`
-    - `git<space>push<space>origin`
-  - I first add `ListExamples.java` to the commit using tab to finish the command. I then make the commit with a short message indicating edit like so, `-m "e"`. I finish by manually typing out `git push origin` to push the commit to the remote repository.
+- Keys Pressed:
+  - `git,<space>,add,<space>,L,<tab>,.j,<tab>,<enter>`
+  - `git,<space>,commit,<space>,-m,<space>,"e",<enter>`
+  - `git<space>push<space>origin`
+- I first add `ListExamples.java` to the commit using tab to finish the command. I then make the commit with a short message indicating edit like so, `-m "e"`. I finish by manually typing out `git push origin` to push the commit to the remote repository.
 
 
 
