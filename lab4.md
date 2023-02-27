@@ -28,10 +28,10 @@
 
 5. Run the tests, demonstrating that they now succeed
   ![Image](successfulTest.png)
-  - Keys Pressed:
-    - `<up>,<up>,<up>,<up>,<enter>`
-    - `<up>,<up>,<up>,<up><enter>`
-  - I rerun the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` by going up 4 in my history and simply pressing enter. I rerun `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` again by going up 4 times in my history after running the command above.
+- Keys Pressed:
+  - `<up>,<up>,<up>,<up>,<enter>`
+  - `<up>,<up>,<up>,<up><enter>`
+- I rerun the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` by going up 4 in my history and simply pressing enter. I rerun `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` again by going up 4 times in my history after running the command above.
 
 6. Commit and push the resulting change to your Github account
   ![Image](gitCommit.png)
