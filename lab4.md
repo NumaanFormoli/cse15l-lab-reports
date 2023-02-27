@@ -4,42 +4,42 @@
 1. Match regular expression in files using -r and -l
 
 
-```
-numaanformoli@Numaans-MacBook-Air written_2 % grep -r -l "t.*pw" non-fiction/
+    ```
+    numaanformoli@Numaans-MacBook-Air written_2 % grep -r -l "t.*pw" non-fiction/
 
-non-fiction//OUP/Berk/ch1.txt
-non-fiction//OUP/Kauffman/ch3.txt
-non-fiction//OUP/Kauffman/ch1.txt
-non-fiction//OUP/Kauffman/ch7.txt
-non-fiction//OUP/Kauffman/ch6.txt
-non-fiction//OUP/Kauffman/ch8.txt
-non-fiction//OUP/Fletcher/ch9.txt
-non-fiction//OUP/Castro/chA.txt
-non-fiction//OUP/Castro/chM.txt
-non-fiction//OUP/Castro/chZ.txt
+    non-fiction//OUP/Berk/ch1.txt
+    non-fiction//OUP/Kauffman/ch3.txt
+    non-fiction//OUP/Kauffman/ch1.txt
+    non-fiction//OUP/Kauffman/ch7.txt
+    non-fiction//OUP/Kauffman/ch6.txt
+    non-fiction//OUP/Kauffman/ch8.txt
+    non-fiction//OUP/Fletcher/ch9.txt
+    non-fiction//OUP/Castro/chA.txt
+    non-fiction//OUP/Castro/chM.txt
+    non-fiction//OUP/Castro/chZ.txt
 
-```
-```
-numaanformoli@Numaans-MacBook-Air written_2 % grep -r -l "stops*" non-fiction/         
+    ```
+    ```
+    numaanformoli@Numaans-MacBook-Air written_2 % grep -r -l "stops*" non-fiction/         
 
-non-fiction//OUP/Berk/ch2.txt
-non-fiction//OUP/Berk/ch1.txt
-non-fiction//OUP/Berk/CH4.txt
-non-fiction//OUP/Berk/ch7.txt
-non-fiction//OUP/Abernathy/ch2.txt
-non-fiction//OUP/Abernathy/ch9.txt
-non-fiction//OUP/Rybczynski/ch2.txt
-non-fiction//OUP/Kauffman/ch3.txt
-non-fiction//OUP/Kauffman/ch7.txt
-non-fiction//OUP/Kauffman/ch8.txt
-non-fiction//OUP/Kauffman/ch9.txt
-non-fiction//OUP/Kauffman/ch10.txt
-non-fiction//OUP/Fletcher/ch2.txt
-non-fiction//OUP/Fletcher/ch1.txt
-non-fiction//OUP/Castro/chM.txt
-```
-- In this example, I use the regex to search text files in the non-fiction directory that has a pattern that starts with t and ends with pw. I use the -r to search through the directory recursively and -l to only list the file name. This is useful if you want to search a directory for a certain pattern, say an email address, but don't want to grep each txt file. The * means that the preceding character will be matched zero or more times.
-- [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+    non-fiction//OUP/Berk/ch2.txt
+    non-fiction//OUP/Berk/ch1.txt
+    non-fiction//OUP/Berk/CH4.txt
+    non-fiction//OUP/Berk/ch7.txt
+    non-fiction//OUP/Abernathy/ch2.txt
+    non-fiction//OUP/Abernathy/ch9.txt
+    non-fiction//OUP/Rybczynski/ch2.txt
+    non-fiction//OUP/Kauffman/ch3.txt
+    non-fiction//OUP/Kauffman/ch7.txt
+    non-fiction//OUP/Kauffman/ch8.txt
+    non-fiction//OUP/Kauffman/ch9.txt
+    non-fiction//OUP/Kauffman/ch10.txt
+    non-fiction//OUP/Fletcher/ch2.txt
+    non-fiction//OUP/Fletcher/ch1.txt
+    non-fiction//OUP/Castro/chM.txt
+    ```
+    - In this example, I use the regex to search text files in the non-fiction directory that has a pattern that starts with t and ends with pw. I use the -r to search through the directory recursively and -l to only list the file name. This is useful if you want to search a directory for a certain pattern, say an email address, but don't want to grep each txt file. The * means that the preceding character will be matched zero or more times.
+    - [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
  
  
 2. Invert match using grep -v
