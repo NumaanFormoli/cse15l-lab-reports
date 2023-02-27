@@ -1,4 +1,4 @@
-# Lab Report 4: Experimenting with grep command
+# Lab Report 3: Experimenting with grep command
 ---
 
 1. Match regular expression in files using -r and -l
