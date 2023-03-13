@@ -1,6 +1,5 @@
 # Lab Report 5: Finishing Grading Script
 ---
-
 Code for Grading Script:
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
