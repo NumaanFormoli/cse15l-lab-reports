@@ -62,13 +62,14 @@ Code for Grading Script:
 
 
 1. https://github.com/ucsd-cse15l-f22/list-methods-lab3: Same starter code from Lab 3
-    ![Image](logIn.png)
-    
+    ![Image](Screen Shot 2023-03-13 at 5.49.07 PM.png)
 2. https://github.com/ucsd-cse15l-f22/list-methods-corrected: Corrected code
-    ![Image](logIn.png)
+    ![Image](Screen Shot 2023-03-13 at 5.49.31 PM.png)
 3. https://github.com/ucsd-cse15l-f22/list-methods-compile-error: Missing a Semicolon
-    ![Image](logIn.png)
+    ![Image](Screen Shot 2023-03-13 at 5.49.53 PM.png)
 4. https://github.com/ucsd-cse15l-f22/list-methods-signature: types for the arguments of filter in the wrong order
-    ![Image](logIn.png)
-5. Challenge https://github.com/ucsd-cse15l-f22/list-examples-subtle: Subtle bugs
-    ![Image](logIn.png)
+    ![Image](Screen Shot 2023-03-13 at 5.50.32 PM.png)
+5. https://github.com/ucsd-cse15l-f22/list-methods-filename
+    ![Image](Screen Shot 2023-03-13 at 5.51.21 PM.png)
+7. Challenge https://github.com/ucsd-cse15l-f22/list-examples-subtle: Subtle bugs
+    ![Image](Screen Shot 2023-03-13 at 5.52.45 PM.png)
