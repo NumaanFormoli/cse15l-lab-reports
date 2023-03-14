@@ -62,7 +62,7 @@ Code for Grading Script:
 
 
 1. https://github.com/ucsd-cse15l-f22/list-methods-lab3: Same starter code from Lab 3
-    ![Image]('Screen Shot 2023-03-13 at 5.49.07 PM.png')
+    ![Image]("Screen Shot 2023-03-13 at 5.49.07 PM.png")
 2. https://github.com/ucsd-cse15l-f22/list-methods-corrected: Corrected code
     ![Image](Screen Shot 2023-03-13 at 5.49.31 PM.png)
 3. https://github.com/ucsd-cse15l-f22/list-methods-compile-error: Missing a Semicolon
