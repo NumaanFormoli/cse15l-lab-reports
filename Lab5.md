@@ -53,7 +53,8 @@ echo "Score: "
 PERCENTAGE=`expr 100 \* $SUCCESSES / $total`
 echo $PERCENTAGE "%"
 ```
-- I approached this grading script step by step making sure not to take on too much. I would first ensure that I could find the right files and that the bash script could find the necessary JUnit components. This ensured that I didn’t have any issues on my end when testing for errors in the students’ code. I then wrote another test method to test the filter method of the ListExamples.java file. I then ran it against 5 of the listed examples and it proved to be accurate. One issue I had was trying to determine the percentage. I settled on using `tr -cd 'E' < score.txt | wc -c` to find the number of failures and successes so this code would still work despite the JUnit tests being replaced.
+- I approached this grading script step by step making sure not to take on too much. I would first ensure that I could find the right files and that the bash script could find the necessary JUnit components. I did this using `if`. This ensured that I didn’t have any issues on my end when testing for errors in the students’ code. I then wrote another test method to test the filter method of the ListExamples.java file. I then ran it against 5 of the listed examples and it proved to be accurate. I tested if compilation worked using if `[[ $? -ne  0 ]]` to see if the exit code was anything but 0. 
+- One issue I had was trying to determine the percentage. I settled on using `tr -cd 'E' < score.txt | wc -c` to find the number of failures and successes so this code would still work despite the JUnit tests being replaced. It worked by counting the number of '.' and 'E' which represents number of failures and passed tests.
 
 
 
